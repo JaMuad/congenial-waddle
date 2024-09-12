@@ -17,3 +17,4 @@ services:
         published: 5000
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:5000/"]
+    domainname: mlh.muadmaalim.buzz
